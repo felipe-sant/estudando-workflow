@@ -1,0 +1,9 @@
+name: CL Pipiline
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "Hello World"
+
